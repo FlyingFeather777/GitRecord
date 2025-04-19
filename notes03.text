@@ -1,0 +1,9 @@
+在github创建远程库，并推送
+git remote -v：查看与所有远程库创建的连接，左边是别名
+git remote 别名 https/ssh地址：创建连接
+git clone https/ssh地址：克隆远程库 
+git push 远程别名 分支名：推送
+git pull 远程别名 分支名：下拉
+
+使用https需要账号密码
+使用ssh只需要创建一个ssh密码即可
