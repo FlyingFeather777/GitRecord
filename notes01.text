@@ -1,0 +1,14 @@
+git config --global user.name 用户名
+git config --global user.email 邮箱
+设置本地用户名和邮箱，只需要设置一次，是为了区分本次提交是谁做的（在c盘用户/admin/.gitconfig中可以查看本机的用户名和邮箱）
+
+git init ：初始化空库
+git status ：查看状态
+git add 文件名： 添加暂存区
+git add. ：添加所有文件
+git commit -m "说明信息" 文件名 ： 提交到本地库
+git commit -m "说明信息"：提交所有文件
+
+git reflog：查看日志
+git reset --hard 版本号：回滚（版本号通过reflog命令获取）
+回滚版本，并不代表现在的版本被删除，本质上是移动指针
