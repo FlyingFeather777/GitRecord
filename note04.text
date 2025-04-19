@@ -1,0 +1,4 @@
+本地生成ssh密钥：ssh-keygen -t 加密算法（一般是rsa） -C 描述
+生成的.ssh文件，其中id_rsa是私钥，id_rsa.pub是公钥
+
+然后在github个人账户中添加这个本地ssh密钥，然后就可以使用ssh连接，使用方式跟https一样
