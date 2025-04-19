@@ -5,7 +5,7 @@ git config --global user.email 邮箱
 git init ：初始化空库
 git status ：查看状态
 git add 文件名： 添加暂存区
-git add. ：添加所有文件
+git add --all ：添加所有文件
 git commit -m "说明信息" 文件名 ： 提交到本地库
 git commit -m "说明信息"：提交所有文件
 
